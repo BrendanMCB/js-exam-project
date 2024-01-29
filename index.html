@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+       <label for="">1. Añade la tarea</label>
+        <input type="text" id="taskInput" placeholder="Añade una tarea nueva">
+        <label for="">2. Elige el boton de prioridad</label>
+        <div class="category-buttons">
+            <button class="todosButton" id="all">Todos las tareas</button>
+            <button class="urgenteButton" id="urgente">Urgente</button>
+            <button class="normalButton" id="normal">Normal</button>
+            <button class="intermedioButton" id= "intermedio">Intermedio</button>
+            <label for=""> ^^ Estos botones funcionan como filtros tambien ^^</label>
+        </div>
+        <label for="">3. Pulsa >> </label>
+        <button class="addButton" id="addTask">Añadir</button>
+    </div>
+    <div class="container">
+    <ul id="taskList"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
